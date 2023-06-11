@@ -13,15 +13,15 @@ val filmListe = mutableListOf<String>(
 
 // Die Preisliste speichert den Preis zu jedem Filmtitel
 val filmToPrice = mutableMapOf<String, Double>(
-    "The Dark Knight" to 1.0,
-    "Indiana Jones" to 1.0,
-    "Die Hard" to 1.0,
-    "The Shawshank Redemption" to 1.0,
-    "Schindler's List" to 1.0,
-    "The Godfather" to 1.0,
-    "Star Wars" to 1.0,
-    "The Matrix" to 1.0,
-    "The Lord of the Rings" to 1.0
+    "The Dark Knight" to 3.99 ,
+    "Indiana Jones" to 2.99,
+    "Die Hard" to 1.49,
+    "The Shawshank Redemption" to 0.99,
+    "Schindler's List" to 4.49,
+    "The Godfather" to 3.99,
+    "Star Wars" to 4.57,
+    "The Matrix" to 6.45,
+    "The Lord of the Rings" to 7.99
 )
 
 // Diese Map speichert das Genre zu jedem Filmtitel

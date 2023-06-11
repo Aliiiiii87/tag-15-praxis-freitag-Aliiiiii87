@@ -12,6 +12,22 @@ fun generateRatings(): MutableList<Int>{
     return ratings
 }
 
-// TODO: Aufgabe 1: Zufällige Preise
+// Aufgbe 2: Zufällige Preise
 
 
+fun main (){
+   println(pricetoChance(filmToPrice))
+    println("${twoFive()} €")
+
+}
+
+fun pricetoChance():Int {
+    return(1..10).random()
+}
+fun pricetoChance(mutableMap: MutableMap<String, Double>):Int {
+    return(1..10).random()
+}
+
+fun twoFive (): Int{
+    return(2..5).random()
+}
